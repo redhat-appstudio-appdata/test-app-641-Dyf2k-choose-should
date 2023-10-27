@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-no-dockerfile-hk55
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-641/nodejs-no-dockerfile-hk55@sha256:1a3ebfea6d06894119ef286c3f63c91c35ffe458878b19f6a33c4ba08a7f8612
         name: my-nodejs
         ports:
         - containerPort: 3001
